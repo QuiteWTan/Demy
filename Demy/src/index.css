@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&family=Caveat:wght@600&family=Cormorant+Garamond&family=Lexend&family=Lora:ital@0;1&family=Montserrat:wght@300&family=PT+Serif&family=Playfair+Display:ital@0;1&family=Poppins:wght@300&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
