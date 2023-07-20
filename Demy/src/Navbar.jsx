@@ -13,18 +13,18 @@ const Navbar = () => {
 
                 <ul className="hidden md:flex flex-row justify-between gap-x-8 font-poppins text-[15px]">
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Home</li>
-                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>About</li>
-                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Courses</li>
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Partner</li>
+                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Courses</li>
+                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>About</li>
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Contact</li>
                 </ul>
 
                 <div className="flex flex-row gap-x-4 px-4">
-                    <button className="flex justify-center items-center gap-1 bg-[#7c9c94] px-3 py-2 rounded-md">
+                    <button className="flex justify-center items-center gap-1 bg-[#7c9c94] opacity-75 px-3 py-2 rounded-md hover:opacity-100 duration-300 transition-all">
                         <box-icon name='lock-alt' color='white'></box-icon>
                         <h1 className="text-white">Login</h1>
                     </button>
-                    <button className=" px-3 py-2  rounded-md border">
+                    <button className=" px-3 py-2  rounded-md border border-gray-300 hover:border-gray-500 duration-300 transition-all">
                         Sign Up
                     </button>
                 </div>

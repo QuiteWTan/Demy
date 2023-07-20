@@ -12,7 +12,8 @@ export default {
         'montserrat': ['Montserrat', 'sans-serif'],
         'play': ['Playfair Display', 'serif'],
         'caveat': ['Caveat', 'cursive'],
-        'Robot': ['Roboto', 'sans-serif']
+        'Robot': ['Roboto', 'sans-serif'],
+        'ysa': ['Ysabeau Office', 'sans-serif']
       },
       animation: {
         slide: "slide 20s linear infinite"
