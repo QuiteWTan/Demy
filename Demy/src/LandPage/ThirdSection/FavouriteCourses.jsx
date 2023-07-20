@@ -2,23 +2,22 @@ import SecondSection from '../assets/SecondSection.png'
 const FavouriteCourses = () => {
     const FavouriteCourses = [
         {
-            Icon:<box-icon name='business' type='solid' size='60px' color='#7c9c94'></box-icon>,
+            Icon:<box-icon type='solid' name='component' size='60px' color='#7c9c94'></box-icon>,
             Title:'Computer',
             EnrolledTotal:'640',
-            Price:'Rp. 640.000,00',
         },
         {
-            Icon:<box-icon name='business' type='solid' size='60px' color='#7c9c94'></box-icon>,
+            Icon:<box-icon name='scatter-chart' size='60px' color='#7c9c94'></box-icon>,
             Title:'Chemistry',
             EnrolledTotal:'640',
         },
         {
-            Icon:<box-icon name='business' type='solid' size='60px' color='#7c9c94'></box-icon>,
+            Icon:<box-icon name='circle-three-quarter' type='solid' size='60px' color='#7c9c94'></box-icon>,
             Title:'Accounting',
             EnrolledTotal:'640',
         },
         {
-            Icon:<box-icon name='business' type='solid' size='60px' color='#7c9c94'></box-icon>,
+            Icon:<box-icon name='objects-horizontal-center' type='solid' size='60px' color='#7c9c94'></box-icon>,
             Title:'Physics',
             EnrolledTotal:'640',
         },

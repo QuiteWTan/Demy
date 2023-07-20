@@ -2,7 +2,7 @@ import FirstSection1 from '../assets/FirstSection1.png'
 import Company from './Company'
 const FirstSection = () => {
     return(
-        <div className='max-w-[1300px] flex flex-col section '>
+        <div className='max-w-[1300px] flex flex-col section'>
             <div className='flex flex-col md:flex-row w-full justify-center'>
                 <div className='w-full'>
                     <img src={FirstSection1} alt="" className='w-[90%]'/>

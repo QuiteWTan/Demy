@@ -14,15 +14,14 @@ export default {
         'caveat': ['Caveat', 'cursive'],
         'Robot': ['Roboto', 'sans-serif']
       },
-
-      gridTemplateColumns: {
-
-        'feat': 'repeat(4, minmax(120px, 200px))',
+      animation: {
+        slide: "slide 20s linear infinite"
       },
-      gridTemplateRows: {
-        
-        'feat1': 'repeat(2, minmax(140px, 230px))',
-        'feat2': 'repeat(4, minmax(60px, 220px))'
+      keyframes: {
+        slide: {
+          "0%,100%" : {transform: "translateX(5%)"},
+          "50%": {transform: "translateX(-100%)"}
+        }
       }
     },
   },

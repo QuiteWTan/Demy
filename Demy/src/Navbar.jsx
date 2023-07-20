@@ -24,7 +24,7 @@ const Navbar = () => {
                         <box-icon name='lock-alt' color='white'></box-icon>
                         <h1 className="text-white">Login</h1>
                     </button>
-                    <button>
+                    <button className=" px-3 py-2  rounded-md border">
                         Sign Up
                     </button>
                 </div>
