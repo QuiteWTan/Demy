@@ -14,7 +14,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex flex-row justify-between gap-x-8 font-poppins text-[15px]">
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Home</li>
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Partner</li>
-                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Courses</li>
+                    <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Course</li>
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>About</li>
                     <li className='border-b-2 border-transparent hover:border-[#7c9c94] selection:transition-all duration-300'>Contact</li>
                 </ul>

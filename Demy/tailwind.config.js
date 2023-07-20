@@ -15,6 +15,15 @@ export default {
         'Robot': ['Roboto', 'sans-serif'],
         'ysa': ['Ysabeau Office', 'sans-serif']
       },
+      gridTemplateColumns: {
+
+        'feat': 'minmax(80px,160px) minmax(80px,160px) minmax(200px,350px) minmax(200px,350px)',
+        'less': 'repeat(2,minmax(320px,500px))'
+      },
+      gridTemplateRows: {
+        
+        'feat1': 'repeat(3, minmax(340px, 500px))',
+      },
       animation: {
         slide: "slide 20s linear infinite"
       },
