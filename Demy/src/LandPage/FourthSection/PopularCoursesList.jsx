@@ -77,18 +77,17 @@ const PopularCoursesList = () => {
     ]
 
     return(
-        <div className='w-full flex flex-col section justify-center items-center bg-gray-100'>
-            <div className='max-w-[1300px] flex flex-col mx-auto'>
+
+            <div className='max-w-[1300px] flex flex-col mx-auto section md:py-16 py-24'>
                 <h1 className="text-4xl font-poppins"><span className="text-[#7c9c94] font-bold ">Top courses</span> you might interested in</h1>
                 <div className='mt-12 overflow-x-hidden w-full'>
-                    <div className='flex gap-8 lg:w-full md:w-[170%] sm:w-[340%] w-[480%] animate-slide'>
+                    <div className='flex gap-8 lg:w-full md:w-[180%] sm:w-[270%] w-[700%] animate-slide py-2'>
                         {TopCourses.map((Course) => (
                             <CourseRender key={Course.id} {...Course}/>
                         ))}
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

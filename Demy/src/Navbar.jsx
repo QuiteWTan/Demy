@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
 
                            
-            <div className='fixed bottom-0 w-full md:hidden bg-white  rounded-t-lg border-t-2 border-gray-300 py-2'>
+            <div className='fixed bottom-0 w-full md:hidden bg-white  rounded-t-lg border-t-2 border-gray-300 py-2 z-10'>
                     
                     <div className="flex flex-row items-end justify-evenly w-full px-2 gap-24">
                         <div className="flex flex-row p-2 w-full justify-evenly"> 
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
             </div>
 
-            <div className="fixed md:hidden rounded-full bg-[#7c9c94] w-[90px] h-[90px] items-center flex justify-center z-12  left-[50%] bottom-2 translate-x-[-50%] ">
+            <div className="fixed md:hidden rounded-full bg-[#7c9c94] w-[90px] h-[90px] items-center flex justify-center z-12  left-[50%] bottom-2 translate-x-[-50%] z-10">
                 <box-icon type='solid' name='book' size='55px' color='white'></box-icon>
             </div>
            

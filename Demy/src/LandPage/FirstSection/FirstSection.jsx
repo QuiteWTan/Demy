@@ -1,14 +1,14 @@
-import FirstSection1 from '../assets/FirstSection1.png'
+import FirstSection1 from '../assets/FirstSection2.png'
 import Company from './Company'
 const FirstSection = () => {
     return(
         <div className='max-w-[1300px] flex flex-col section'>
-            <div className='flex flex-col md:flex-row w-full justify-center'>
-                <div className='w-full'>
+            <div className='flex flex-col md:flex-row w-full justify-center gap-x-6'>
+                <div className='w-[90%] '>
                     <img src={FirstSection1} alt="" className='w-[90%]'/>
                 </div>
                 <div className='w-full md:w-[60%] lg:w-full flex flex-col'>
-                    <h1 className='text-[#7c9c94] text-2xl lg:text-3xl font-caveat'>Follow Your Journey</h1>
+                    <h1 className='text-[#7c9c94] text-2xl lg:text-3xl font-caveat'>New Mobile Learning Companion</h1>
                     <h2 className='text-3xl md:text-xl lg:text-4xl font-poppins font-semibold py-4'>Unlock your potential with our diverse course catalog, offering a wide range of subjects to <span className='text-[#7c9c94] '>enhance your skills and knowledge.</span></h2>
                     <p className='text-md font-Robot text-gray-400'>Gain Access to 2000+ courses from all different subject to your liking!</p>
                     <div className=''>
