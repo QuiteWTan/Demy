@@ -1,6 +1,6 @@
 const Footer = ( ) => {
     return (
-        <div className="w-full bg-[#7c9c94] py-8 px-12 lg:px-24 text-white font-poppins flex justify-center">
+        <div className="w-full bg-[#7c9c94] py-8 px-12 lg:px-24 text-white font-poppins hidden md:flex justify-center">
             <div className="max-w-[1200px] grid grid-rows-3 grid-cols-2 md:grid-rows-none md:grid-cols-feat gap-x-7 gap-y-6">
                 <div>
                     <h1 className="text-4xl md:text-3xl font-semibold  font-poppins pb-4">Demy</h1>

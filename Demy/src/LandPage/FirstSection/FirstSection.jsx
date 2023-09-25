@@ -8,8 +8,8 @@ const FirstSection = () => {
                     <img src={FirstSection1} alt="" className='w-[90%]'/>
                 </div>
                 <div className='w-full md:w-[60%] lg:w-full flex flex-col'>
-                    <h1 className='text-[#7c9c94] text-2xl lg:text-3xl font-caveat'>New Mobile Learning Companion</h1>
-                    <h2 className='text-3xl md:text-xl lg:text-4xl font-poppins font-semibold py-4'>Unlock your potential with our diverse course catalog, offering a wide range of subjects to <span className='text-[#7c9c94] '>enhance your skills and knowledge.</span></h2>
+                    <h1 className='text-[#7c9c94] text-lg md:text-2xl lg:text-3xl font-caveat'>New Mobile Learning Companion</h1>
+                    <h2 className='text-md md:text-xl lg:text-4xl font-poppins font-semibold py-4'>Unlock your potential with our diverse course catalog, offering a wide range of subjects to <span className='text-[#7c9c94] '>enhance your skills and knowledge.</span></h2>
                     <p className='text-md font-Robot text-gray-400'>Gain Access to 2000+ courses from all different subject to your liking!</p>
                     <div className=''>
                         <button className='py-2 text-white bg-[#7c9c94] px-4 rounded-md opacity-80 hover:opacity-100 hover:scale-110 transition-all duration-300'>Get Started</button>

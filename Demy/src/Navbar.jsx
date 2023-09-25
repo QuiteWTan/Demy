@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="flex md:max-w-[1400px] max-w-[600px] m-auto flex-row justify-between items-center w-full h-full ">
                 <div className="flex flex-row items-center gap-x-2 pl-4">
                     <box-icon type='solid' name='book-reader' size='md' color='#7c9c94'></box-icon>
-                    <h1 className="text-4xl md:text-3xl font-semibold text-[#7c9c94] font-poppins pl">Demy</h1>
+                    <h1 className="text-2xl md:text-3xl font-semibold text-[#7c9c94] font-poppins pl">Demy</h1>
                 </div>
 
                 <ul className="hidden md:flex flex-row justify-between gap-x-8 font-poppins text-[15px]">
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <box-icon name='lock-alt' color='white'></box-icon>
                         <h1 className="text-white">Login</h1>
                     </button>
-                    <button className=" px-3 py-2  rounded-md border border-gray-300 hover:border-gray-500 duration-300 transition-all">
+                    <button className="hidden md:block px-3 py-2  rounded-md border border-gray-300 hover:border-gray-500 duration-300 transition-all">
                         Sign Up
                     </button>
                 </div>
@@ -35,18 +35,18 @@ const Navbar = () => {
                     
                     <div className="flex flex-row items-end justify-evenly w-full px-2 gap-24">
                         <div className="flex flex-row p-2 w-full justify-evenly"> 
-                            <box-icon name='home' type='solid' size='45px' color='#7c9c94'></box-icon>
-                            <box-icon type='solid' name='bookmarks' size='45px' color='#7c9c94'></box-icon>
+                            <box-icon name='home' type='solid' size='35px' color='#7c9c94'></box-icon>
+                            <box-icon type='solid' name='bookmarks' size='35px' color='#7c9c94'></box-icon>
                         </div>
                         <div className="flex flex-row p-2 w-full justify-evenly">
-                            <box-icon type='solid' name='group' size='45px' color='#7c9c94'></box-icon>
-                            <box-icon type='solid' name='contact' size='45px' color='#7c9c94'></box-icon>
+                            <box-icon type='solid' name='group' size='35px' color='#7c9c94'></box-icon>
+                            <box-icon type='solid' name='contact' size='35px' color='#7c9c94'></box-icon>
                         </div>
                     </div>
             </div>
 
-            <div className="fixed md:hidden rounded-full bg-[#7c9c94] w-[90px] h-[90px] items-center flex justify-center z-12  left-[50%] bottom-2 translate-x-[-50%] z-10">
-                <box-icon type='solid' name='book' size='55px' color='white'></box-icon>
+            <div className="fixed md:hidden rounded-full bg-[#7c9c94] w-[80px] h-[80px] items-center flex justify-center z-12  left-[50%] bottom-4 translate-x-[-50%] z-10">
+                <box-icon type='solid' name='book' size='45px' color='white'></box-icon>
             </div>
            
         </div>
